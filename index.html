@@ -169,7 +169,6 @@
       max-width: 760px;
     }
 
-
     .hero-image-wrap {
       margin: 24px auto 18px;
       border: 5px solid var(--bain-dark);
@@ -323,33 +322,41 @@
       box-shadow: 10px 10px 0 var(--bain-dark);
     }
 
-    .page-card:nth-child(odd) {
-      background: linear-gradient(135deg, rgba(255,255,255,.96), rgba(255, 215, 226, .84));
-    }
-
-    .page-card:nth-child(even) {
-      background: linear-gradient(135deg, rgba(255,255,255,.96), rgba(143, 211, 255, .8));
-    }
-
-    .page-label {
-      display: inline-block;
-      margin-bottom: 14px;
-      padding: 8px 12px;
-      border: 3px solid var(--bain-dark);
-      border-radius: 999px;
-      background: var(--yellow);
-      font-weight: 1000;
-      box-shadow: 4px 4px 0 var(--bain-dark);
-    }
-
-    pre {
-      margin: 0;
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(1.05rem, 2.4vw, 1.42rem);
-      line-height: 1.45;
+    .guide-card {
+      font-family: inherit;
+      font-size: clamp(1.05rem, 2.2vw, 1.32rem);
+      line-height: 1.58;
       color: #171717;
+      background: linear-gradient(135deg, rgba(255,255,255,.96), rgba(255, 215, 226, .78), rgba(143, 211, 255, .44));
+    }
+
+    .guide-card p {
+      margin: 0 0 26px;
+    }
+
+    .guide-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .guide-card .opening {
+      font-weight: 700;
+    }
+
+    .guide-card strong {
+      display: block;
+      margin: 34px 0 8px;
+      color: var(--bain-red);
+      font-weight: 1000;
+      font-size: clamp(1.25rem, 3vw, 1.85rem);
+      line-height: 1.05;
+    }
+
+    .guide-card .opening strong {
+      display: inline;
+      margin: 0;
+      color: inherit;
+      font-size: inherit;
+      line-height: inherit;
     }
 
     .side-rail {
@@ -511,8 +518,8 @@
   <div class="audio-gate" id="audioGate">
     <div class="gate-card">
       <h2>LETS GET FUCKING EXCITED!!!</h2>
-      <p>Volume up, click the horn, LETS GET THIS PARTY STARTED. ITS SARAH'S FIRST DAY.</p>
-      <button id="unlockAudio">🚨 Tap for BAIN DAY HYPEEE 🚨</button>
+      <p>Volume up, click the horn, LETS GET THIS PARTY STARTED. ITS SARAH'S FIRST DAY</p>
+      <button id="unlockAudio">🚨 Tap for BAIN DAY HYPE 🚨</button>
     </div>
   </div>
 
@@ -556,78 +563,36 @@
 
       <div class="content-grid">
         <div>
-          
-        <article class="page-card">
-          <div class="page-label">Page 1</div>
-          <pre>FIRST DAY OF
-WORK
-TOMORROW!!
+          <article class="page-card guide-card">
+            <p class="opening">
+              <strong>Sarah, it’s TIME.</strong> You're gonna be a working class woman in the best consulting company in the world. That’s CRAZY. And I know you’re about to kill it. The second you walk in, flowers at your feet, “we’re not worthy,” that sort of stuff. I really think you're gonna do great. My girlfriend is the BEST at everything, and this is included in everything. But here’s some advice that helped me that might help calm down some of your nerves and make you best prepared for tomorrow:
+            </p>
 
-Sarah, it’s TIME. You&#x27;re gonna be a working class woman in the best
-consulting company in the world. That’s CRAZY. And I know
-you’re about to kill it. The second you walk in, flowers at your feet,
-“we’re not worthy,” that sort of stuff. I really think you&#x27;re gonna do
-great. My girlfriend is the BEST at everything, and this is included in
-everything. But here’s some advice that helped me that might help
-calm down some of your nerves and make you best prepared for
-tomorrow:</pre>
-        </article>
-    
+            <p>
+              <strong>Try to come to the office early</strong>
+              It’s your first day, so you want to try and show up half an hour early if possible to show that you’re dedicated to working hard. Make sure to map the distance to work, and try and give yourself an extra 10-15 minutes of cushion when setting your alarm in case something goes wrong (or in case Jimmy has a surprise visit)
+            </p>
 
-        <article class="page-card">
-          <div class="page-label">Page 2</div>
-          <pre>1.​Try to come to the office early – it’s your first day, so you want
-  to try and show up half an hour early if possible to show that
-  you’re dedicated to working hard
-     a.​ Make sure to map the distance to work, and try and give
-        yourself an extra 10-15 minutes of cushion when setting
-        your alarm in case something goes wrong (or in case
-        Jimmy has a surprise visit)
-2.​Call your boyfriend – if you’re nervous, call your boyfriend. If
-  you can’t go to sleep, call your boyfriend. It’s the only logical
-  thing to do.
-     a.​ “But you’re going to be asleep and I don’t want to disturb
-        you” FUCK THAT. It’s Sunday ma’am so it doesn&#x27;t
-        matter if I wake up at 4am or 8am, I can go back to sleep
-        whenever I want. Just make sure to double call through
-        the dnd :)
-3.​I’m proud to be an American – they DON&#x27;T expect you to
-  have perfect Japanese. You’re American, along with a lot of
-  other interns, and they know it, so they will definitely be
-  forgiving about the language barrier. Also, between you and
-  me, your Japanese is already on another level, so I really think
-  you&#x27;re going to actually impress them that you&#x27;re that fluent. It
-  might actually be preferable that you don’t know everything, as
-  you can ask your coworkers about it and make them feel
-  important (think about the book). Also, I think they’re going</pre>
-        </article>
-    
+            <p>
+              <strong>CALL YOUR BOYFRIEND</strong>
+              If you’re nervous, call your boyfriend. If you can’t go to sleep, CALL your boyfriend. It’s the only logical thing to do. “But you’re going to be asleep and I don’t want to disturb you” – FUCK THAT. It’s Sunday ma’am so it doesn't matter if I wake up at 4am or 8am, I can go back to sleep whenever I want. Just make sure to double call through the dnd :)
+            </p>
 
-        <article class="page-card">
-          <div class="page-label">Page 3</div>
-          <pre>  to be eager to ask you about what life is like in the states, so
-  you’ll have unlimited things to talk about. Worst case, hit them
-  with the “Mizu Kudasai” and they’ll get that you know your
-  shit.
-4.​Trouble sleeping? – if you can’t sleep – which knowing you I
-  think you really won’t since your somehow able to always sleep
-  – then listen to the audiobook or read a book: it&#x27;s an age-old
-  tactic to get tired within 10 minutes pretty easily, and if not,
-  then you’ll get further through your book which is productive.
-     a.​ Either way, don’t sweat it – even if you can’t sleep, pop
-          some Neurogum and you’re going to be all good
-          tomorrow
-     b.​Get a plastic bag and put a couple neurogum pieces into it
-          and put it in your work bag. That way, if you ever get
-          tired on the job, you can take the gum to keep you going
-5.​Text your Boyfriend Goodnight – a KEY message that may or
-  may not have been forgotten for the past two nights. He loves
-  you SO much and is so excited for you and wants to hear
-  everything you&#x27;re thinking. If you don’t have time to call or
-  text your day, at least text him a “Goodnight” and a “IM SO
-  EXCITED&quot; text so he knows you&#x27;re as excited as he is.</pre>
-        </article>
-    
+            <p>
+              <strong>I’m proud to be an American</strong>
+              They DON'T expect you to have perfect Japanese. You’re American, along with a lot of other interns, and they know it, so they will definitely be forgiving about the language barrier. Also, between you and me, your Japanese is already on another level, so I really think you're going to actually impress them that you're that fluent. It might actually be preferable that you don’t know everything, as you can ask your coworkers about it and make them feel important (think about the book). Also, I think they’re going to be eager to ask you about what life is like in the states, so you’ll have unlimited things to talk about. Worst case, hit them with the “Mizu Kudasai” and they’ll get that you know your shit.
+            </p>
+
+            <p>
+              <strong>Trouble sleeping?</strong>
+              If you can’t sleep – which knowing you I don’t think that’ll be an issue – then listen to the audiobook or read a book: it's an age-old tactic to get tired within 10 minutes pretty easily, and if not, then you’ll get further through your book, an added plus 🙂. Either way, don’t sweat it – even if you can’t sleep, pop some Neurogum tomorrow morning and you’ll be good as new. I’d recommend getting a plastic bag and putting a couple neurogum pieces into it and putting it in your work bag. That way, if you ever get tired on the job, you can take as many pieces as you need to keep you going.
+            </p>
+
+            <p>
+              <strong>Text your Boyfriend Goodnight</strong>
+              A KEY message that may or may not have been forgotten for the past two nights. He loves you SO much and is so excited for you and wants to hear everything you're thinking. If you don’t have time to call or text your day, at least text him a “Goodnight” and a “IM SO EXCITED" text so he knows you're as excited as he is.
+            </p>
+          </article>
         </div>
 
         <aside class="side-rail" aria-label="Extra hype stickers">
@@ -652,87 +617,41 @@ tomorrow:</pre>
 
       <div class="content-grid">
         <div>
-          
-        <article class="page-card">
-          <div class="page-label">Page 4</div>
-          <pre>(Start when first day of work)
+          <article class="page-card guide-card">
+            <p class="opening">
+              <strong>HAPPY FIRST DAY OF WORK!!</strong>
+              MY GIRLFRIEND IS AN A-TIER CONSULTANT (WOOOOO)
+            </p>
 
+            <p>
+              I hope your as excited to start your first day of work as I am for you, but in case your a little nervous, here’s a few reminders for you to help it go as smoothly as possible:
+            </p>
 
-HAPPY FIRST
-DAY OF WORK!!
-MY GIRLFRIEND IS AN A-TIER
-CONSULTANT (WOOOOO)
+            <p>
+              <strong>Bring the energy</strong>
+              You're the intern, the young blood of the organization. Bring the youth and joy with you, and it’ll become contagious. Might help to bring some neurogum with you
+            </p>
 
+            <p>
+              <strong>Ask a LOT of questions</strong>
+              It's your first day, so they expect you not to know anything. For the beginning few weeks, you should ask as many questions as possible to best understand concepts and the company and how your work works. It’ll pay off later. Also, when you start to work on things, you should show your boss the first few times to double check you’re doing something correctly or working in the right direction. That way A, they can see you’re working hard as your already making quick progress. B, they can help steer you in the right direction, and course correct if something is wrong and improve what you currently have with recs
+            </p>
 
-I hope your as excited to start your first
-day of work as I am for you, but in case
-your a little nervous, here’s a few
-reminders for you to help it go as</pre>
-        </article>
-    
+            <p>
+              <strong>Look through the org calendar and familiarize yourself with names and pictures of people</strong>
+              Sometimes it's hard to remember names of people during introductions, so having that initial look-over can help you better remember the names and figure out who’s important
+            </p>
 
-        <article class="page-card">
-          <div class="page-label">Page 5</div>
-          <pre>smoothly as possible: ​
+            <p>
+              <strong>Not TODAY, but tomorrow</strong>
+              On your second day after meeting everyone, start messaging other people on your team to have a 1-1 lunch to get to know the team and increase your exposure
+            </p>
 
- 1.​ Bring the energy – you&#x27;re the intern, the young
-   blood of the organization. Bring the youth and
-   joy with you, and it’ll become contagious.
-     a.​Might help to bring some neurogum with
-       you
- 2.​ Ask a LOT of questions – it&#x27;s your first day, so
-   they expect you not to know anything. For the
-   beginning few weeks, you should ask as many
-   questions as possible to best understand
-   concepts and the company and how your work
-   works. It’ll pay off later.
-     a.​Also, when you start to work on things,
-       you should show your boss the first few
-       times to double check you’re doing</pre>
-        </article>
-    
-
-        <article class="page-card">
-          <div class="page-label">Page 6</div>
-          <pre>      something correctly or working in the right
-      direction. That way
-      i.​ A, they can see you’re working hard as
-          your already making quick progress
-      ii.​ B, they can help steer you in the right
-          direction, and course correct if
-          something is wrong and improve what
-          you currently have with recs
-3.​ Look through the org calendar and familiarize
-  yourself with names and pictures of people –
-  sometimes it&#x27;s hard to remember names of
-  people during introductions, so having that
-  initial look-over can help you better remember
-  the names and figure out who’s important
-4.​ Not TODAY, but tomorrow (on your second
-  day after meeting everyone), start messaging
-  other people on your team to have a 1-1 lunch</pre>
-        </article>
-    
-
-        <article class="page-card">
-          <div class="page-label">Page 7</div>
-          <pre>  to get to know the team and increase your
-  exposure
-5.​ Be yourself – Sarah, you’re genuinely one of
-  the smartest people I know. I was literally
-  telling Kogan today about how you&#x27;re so smart
-  and for some reason you just don’t realize it
-  (we were on the topic of his roommate Aaron,
-  the guy in our group project, who’s really
-  smart, too, and I brought up how you’re like
-  effortlessly smart, too). I think the people at
-  your work are gonna be able to pick up on that
-  quickly and will really like you. You have such
-  great ideas and are so creative, so just be
-  yourself and I know you’ll blow them out of
-  the water</pre>
-        </article>
-    
+            <p>
+              <strong>Be yourself</strong>
+              Sarah, you’re genuinely one of the smartest people I know. I was literally telling Kogan today about how you're so smart and for some reason you just don’t realize it (we were on the topic of his roommate Aaron, the guy in our group project, who’s really smart, too, and I brought up how you’re like effortlessly smart, too). I think the people at your work are gonna be able to pick up on that quickly and will really like you. You have such great ideas and are so creative, so just be yourself and I know you’ll blow them out of the water
+            </p>
+          </article>
         </div>
 
         <aside class="side-rail" aria-label="Extra hype stickers">
